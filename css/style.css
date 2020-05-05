@@ -1,0 +1,80 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  max-width: 1170px;
+}
+
+/* Header */
+.primary_nav {
+  color: white;
+  background: #2c3e50;
+  line-height: 50px;
+}
+/* Fine Header */
+
+/* Sections */
+.ms_section {
+  padding: 40px 0;
+}
+.ms_section.ms_primary {
+  background: #1abc9c;
+  color: white;
+}
+.ms_section.ms_secondary {
+  background: white;
+  color: black;
+}
+/* Fine Sections */
+
+/* Main */
+.ms_jumbo {
+  padding: 30px 0;
+  height: 200px;
+}
+.ms_intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.ms_secondary .ms_intro .ms_star {
+  color: #2c3e50
+}
+.ms_star::before, .ms_star::after {
+  content: ' -------------- '
+}
+
+.ms_portfolio_item {
+  margin-bottom: 30px;
+}
+.ms_portfolio_item img {
+  height: 250px;
+}
+.ms_about_text {
+  margin-bottom: 30px;
+}
+
+.ms_gen {
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+/* Fine Main */
+
+/* Footer */
+footer section {
+  color:white;
+  padding: 40px 0;
+}
+.company_info {
+  background: #3a546d;
+}
+.ms_icon {
+  width: 40px;
+  height: 40px;
+  line-height: 37px;
+  border: 1px solid white;
+  border-radius:50%;
+}
+.company_credits {
+  background: #2c3e50;
+}
